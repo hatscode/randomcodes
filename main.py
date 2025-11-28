@@ -1,5 +1,4 @@
 
-
 thislist = ["apple", "banana", "cherry"]
 
 thislist.insert(1, "mango") # adding an item in the list
@@ -17,4 +16,5 @@ print("--------------")
 # for loop
 for fruit in range(len(thislist)):
     print(thislist[fruit])
+
 
